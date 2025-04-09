@@ -48,3 +48,13 @@ Este projeto foi desenvolvido com fins **didáticos**, como parte dos meus estud
 O principal objetivo foi praticar conceitos da **Programação Orientada a Objetos**, como **composição de objetos**, modelagem de entidades e manipulação de dados via console.
 
 A persistência de dados (como banco de dados ou arquivos) **não foi implementada intencionalmente**, pois o foco era consolidar a lógica e estruturação de classes em Java dentro de um exercício prático.
+
+--- 
+
+## Como executar
+Clone o repositório:
+https://github.com/MauroSantosIf/Worker.git
+
+Importe o projeto na sua IDE de preferência
+
+Rode a classe Main.java e interaja com o console
