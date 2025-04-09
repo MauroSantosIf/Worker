@@ -1,18 +1,50 @@
-## Getting Started
+# Sistema de Gestão de Trabalhadores com Composição em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto **didático** desenvolvido em Java, com o objetivo de praticar conceitos fundamentais da **Programação Orientada a Objetos (POO)**, como:
 
-## Folder Structure
+- ✅ Composição de Objetos
+- ✅ Enumerações (`enum`)
+- ✅ Encapsulamento
+- ✅ Manipulação de datas
+- ✅ Leitura de dados com `Scanner`
+- ✅ Cálculo de renda mensal com base em contratos
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+##  Sobre o projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O sistema simula a estrutura de trabalhadores de uma empresa. Um `Worker` (trabalhador) está associado a um `Department` (departamento) e pode ter vários contratos (`HourContract`) ao longo do tempo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Com base nas informações fornecidas pelo usuário, o programa calcula a **renda total de um trabalhador em um determinado mês e ano**, somando o salário base e os contratos registrados no período.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📌 Funcionalidades
+
+- Cadastro de departamento e trabalhador
+- Registro de contratos de trabalho com:
+  - Data
+  - Valor por hora
+  - Duração em horas
+- Cálculo da renda total em um mês/ano específico
+- Saída formatada com os dados do trabalhador
+
+---
+
+## Tecnologias usadas
+Java 17+
+
+Programação Orientada a Objetos
+
+Scanner e SimpleDateFormat
+
+IDE: VS Code
+
+--- 
+
+## 📘 Finalidade
+
+Este projeto foi desenvolvido com fins **didáticos**, como parte dos meus estudos no **Curso de Java** do professor **Nélio Alves**.  
+O principal objetivo foi praticar conceitos da **Programação Orientada a Objetos**, como **composição de objetos**, modelagem de entidades e manipulação de dados via console.
+
+A persistência de dados (como banco de dados ou arquivos) **não foi implementada intencionalmente**, pois o foco era consolidar a lógica e estruturação de classes em Java dentro de um exercício prático.
